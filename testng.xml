@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners> 
+    <listener class-name="testNG.retryAbalyzer.IAnnotationsTransformerExample"></listener></listeners>
+   <!-- <parameter name="courseName" value="Selenium"/>
+    <parameter name="cityName" value="Pune"/>
+<parameter name="browserName" value="chrome"/> -->
+    <test verbose="2" preserve-order="true" parallel="false" thread-count="2" name="C:/Users/prash/IdeaProjects/Maven1/src/test/java/Selenium">
+        
+        <classes>
+           <!-- <class name="testNG.paramerization.WithParameterization"/>
+            <class name="testNG.paramerization.NormalDataProvider"/>  -->
+            <class name="testNG.FailedTestcase.SampleTestcases"/>
+            <class name="testNG.FailedTestcase.SampleTestcases2"/>
+
+        </classes>
+    </test>
+</suite>
