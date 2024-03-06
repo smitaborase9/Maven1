@@ -17,7 +17,8 @@ public  WebDriver driver;
     public void testcase1(){
         driver.get("https://www.amazon.in/");
         driver.manage().window().maximize();
-        System.out.println("hello everyone");
+        System.out.println("hello everyone .... Good Morning");
+
     }
     @Test
     public void testcase2(){
