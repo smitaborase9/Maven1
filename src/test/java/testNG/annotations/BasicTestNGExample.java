@@ -24,11 +24,12 @@ public  WebDriver driver;
     public void testcase2(){
         driver.get("https://www.flipkart.com/");
         driver.manage().window().maximize();
+        System.out.println("good evening");
     }
     @Test
     public void testcase3(){
         driver.get("https://camposcoffee.com/");
-        driver.manage().window().maximize();
+       
     }
     @AfterMethod
     public void afterMethodExample(){
