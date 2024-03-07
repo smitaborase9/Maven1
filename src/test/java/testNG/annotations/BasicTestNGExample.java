@@ -25,7 +25,8 @@ public  WebDriver driver;
         driver.get("https://www.flipkart.com/");
         driver.manage().window().maximize();
        driver.manage().window().maximize();
-       driver.manage().window().maximize();
+      System.out.println("hello everyone .... ");
+
     }
     @Test
     public void testcase3(){
